@@ -12,7 +12,7 @@ def create_app(test_config=None) -> Flask:
     An application factory to initialize a Flask app.
     """
     app = Flask(__name__, instance_relative_config=True)
-    app.register_blueprint(api_poker, url_prefix="/api")
+    app.register_blueprint(api_poker, url_prefix="/poker/api")
 
     app.config.from_mapping(
         SECRET_KEY="dev",

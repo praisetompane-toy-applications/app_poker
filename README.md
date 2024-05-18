@@ -1,5 +1,5 @@
 # app_poker
-![build status](https://github.com/praisetompane/app_poker/actions/workflows/app_poker.yaml/badge.svg)
+![build status](https://github.com/praisetompane-toy-applications/app_poker/actions/workflows/app_poker.yaml/badge.svg)
 - a Poker hand evaluator.
     - currently only supports High Games:
         - features:
@@ -14,7 +14,7 @@
             - the API to the application lives in this module.
             - the current implementation is a REST API, but a gRPC, CLI API, etc would be implemented in here.
         - config:
-            - configurable values live in here. 
+            - configurable values live in here.
             - these are values such as Hand Ranks, Card Ranks.
                 - as the system scales, you could migrate these into a database to allow independently
                 changing config without restarting the application.
@@ -38,20 +38,21 @@
 
 ## setup instructions:
 1. install `python 3.11` or higher.
-    - [Python Download]: (https://www.python.org/downloads/)
+    - [Python Download](https://www.python.org/downloads/)
 
-2. clone repo: 
+2. clone repo:
     ```shell
     git clone git@github.com:praisetompane/app_poker.git
     ```
 ## package management:
 - install pipenv: https://pypi.org/project/pipenv/
 
-## run program:
 - install packages into local environment using pipenv[**only required for first run**]:
     ```shell
     pipenv install
     ```
+    
+## run program:
 - to start system run:
     ```shell
     ./start_system.sh
@@ -68,12 +69,12 @@
     ```shell
     pytest
     ```
-        
+
 ### end to end tests:
 - The curl request used can be found in `utilities/curl/`.
     - example:
     ```shell
-    ./utilities/curl/highest_rank/royal_flush.sh 
+    ./utilities/curl/highest_rank/royal_flush.sh
     ```
     ![end to end curl example](./docs/end_to_end_curl_example.png) <br>
 
@@ -102,7 +103,7 @@
         git commit -m "feat(core): algorithm" -m"implement my new shiny faster algorithm"
         ```
     - screen shot of Githb view
-    - references: 
+    - references:
         - https://www.conventionalcommits.org/en/v1.0.0/
         - https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/
 ## demo:

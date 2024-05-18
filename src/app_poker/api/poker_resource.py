@@ -89,7 +89,13 @@ def retrieve_possible_ranks() -> [HandRank]:
         Added it to paint a full picture, to design to a system that would
         be extensible for modelling and solving Poker problems.
     """
-    player_hand = []
-    ranks = hand_rank_calculator.calculate_all_possible_hand_ranks(player_hand)
-
-    return ranks
+    content_type = request.headers.get("Content-Type")
+    if content_type == "application/json":
+        value_key = "value"
+        suit_key = "suit"
+        player_hand: Hand = request.json
+        log(logging.INFO, f"Processing user request: request:{player_hand}")
+        ranks = hand_rank_calculator.calculate_all_possible_hand_ranks(player_hand)
+        return ranks
+    else:
+        return []

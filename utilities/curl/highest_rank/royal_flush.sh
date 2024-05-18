@@ -1,4 +1,4 @@
-curl --location 'http://localhost:8080/api/hand/highest-rank' \
+curl --location 'http://localhost:8080/poker/api/hand/highest-rank' \
 --header 'Content-Type: application/json' \
 --data '[
     {
