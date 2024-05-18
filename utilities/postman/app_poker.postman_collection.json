@@ -26,7 +26,7 @@
 							"raw": "[\n    {\n        \"value\": \"A\",\n        \"suit\": \"C\"\n    },\n    {\n        \"value\": \"K\",\n        \"suit\": \"C\"\n    },\n    {\n        \"value\": \"Q\",\n        \"suit\": \"C\"\n    },\n    {\n        \"value\": \"J\",\n        \"suit\": \"C\"\n    },\n    {\n        \"value\": \"10\",\n        \"suit\": \"C\"\n    }\n]"
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/hand/highest-rank",
+							"raw": "http://localhost:8080/poker/api/hand/highest-rank",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -58,7 +58,7 @@
 							"raw": "[\n    {\n        \"value\": \"2\",\n        \"suit\": \"S\"\n    },\n    {\n        \"value\": \"3\",\n        \"suit\": \"S\"\n    },\n    {\n        \"value\": \"4\",\n        \"suit\": \"S\"\n    },\n    {\n        \"value\": \"5\",\n        \"suit\": \"S\"\n    },\n    {\n        \"value\": \"6\",\n        \"suit\": \"S\"\n    }\n]"
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/hand/highest-rank",
+							"raw": "http://localhost:8080/poker/api/hand/highest-rank",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -90,7 +90,7 @@
 							"raw": "[\n    {\n        \"value\": \"2\",\n        \"suit\": \"C\"\n    },\n    {\n        \"value\": \"3\",\n        \"suit\": \"D\"\n    },\n    {\n        \"value\": \"4\",\n        \"suit\": \"H\"\n    },\n    {\n        \"value\": \"5\",\n        \"suit\": \"D\"\n    },\n    {\n        \"value\": \"6\",\n        \"suit\": \"S\"\n    }\n]"
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/hand/highest-rank",
+							"raw": "http://localhost:8080/poker/api/hand/highest-rank",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -122,7 +122,7 @@
 							"raw": "[\n    {\n        \"value\": \"A\",\n        \"suit\": \"S\"\n    },\n    {\n        \"value\": \"2\",\n        \"suit\": \"H\"\n    },\n    {\n        \"value\": \"3\",\n        \"suit\": \"D\"\n    },\n    {\n        \"value\": \"4\",\n        \"suit\": \"C\"\n    },\n    {\n        \"value\": \"5\",\n        \"suit\": \"S\"\n    }\n]"
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/hand/highest-rank",
+							"raw": "http://localhost:8080/poker/api/hand/highest-rank",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -154,7 +154,7 @@
 							"raw": "[\n    {\n        \"value\": \"A\",\n        \"suit\": \"S\"\n    },\n    {\n        \"value\": \"A\",\n        \"suit\": \"S\"\n    },\n    {\n        \"value\": \"A\",\n        \"suit\": \"S\"\n    },\n    {\n        \"value\": \"A\",\n        \"suit\": \"S\"\n    },\n    {\n        \"value\": \"5\",\n        \"suit\": \"S\"\n    }\n]"
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/hand/highest-rank",
+							"raw": "http://localhost:8080/poker/api/hand/highest-rank",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -186,7 +186,7 @@
 							"raw": "[\n    {\n        \"value\": \"A\",\n        \"suit\": \"S\"\n    },\n    {\n        \"value\": \"A\",\n        \"suit\": \"H\"\n    },\n    {\n        \"value\": \"K\",\n        \"suit\": \"S\"\n    },\n    {\n        \"value\": \"K\",\n        \"suit\": \"C\"\n    },\n    {\n        \"value\": \"5\",\n        \"suit\": \"S\"\n    }\n]"
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/hand/highest-rank",
+							"raw": "http://localhost:8080/poker/api/hand/highest-rank",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -218,7 +218,7 @@
 							"raw": "[\n    {\n        \"value\": \"A\",\n        \"suit\": \"S\"\n    },\n    {\n        \"value\": \"A\",\n        \"suit\": \"H\"\n    },\n    {\n        \"value\": \"K\",\n        \"suit\": \"S\"\n    },\n    {\n        \"value\": \"J\",\n        \"suit\": \"C\"\n    },\n    {\n        \"value\": \"5\",\n        \"suit\": \"S\"\n    }\n]"
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/hand/highest-rank",
+							"raw": "http://localhost:8080/poker/api/hand/highest-rank",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -250,7 +250,7 @@
 							"raw": "[\n    {\n        \"value\": \"A\",\n        \"suit\": \"S\"\n    },\n    {\n        \"value\": \"J\",\n        \"suit\": \"H\"\n    },\n    {\n        \"value\": \"9\",\n        \"suit\": \"S\"\n    },\n    {\n        \"value\": \"K\",\n        \"suit\": \"C\"\n    },\n    {\n        \"value\": \"5\",\n        \"suit\": \"S\"\n    }\n]"
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/hand/highest-rank",
+							"raw": "http://localhost:8080/poker/api/hand/highest-rank",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -282,7 +282,7 @@
 							"raw": "[\n    {\n        \"value\": \"A\",\n        \"suit\": \"S\"\n    },\n    {\n        \"value\": \"A\",\n        \"suit\": \"D\"\n    },\n    {\n        \"value\": \"A\",\n        \"suit\": \"C\"\n    },\n    {\n        \"value\": \"4\",\n        \"suit\": \"H\"\n    },\n    {\n        \"value\": \"5\",\n        \"suit\": \"S\"\n    }\n]"
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/hand/highest-rank",
+							"raw": "http://localhost:8080/poker/api/hand/highest-rank",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -314,7 +314,7 @@
 							"raw": "[\n    {\n        \"value\": \"A\",\n        \"suit\": \"S\"\n    },\n    {\n        \"value\": \"A\",\n        \"suit\": \"C\"\n    },\n    {\n        \"value\": \"5\",\n        \"suit\": \"D\"\n    },\n    {\n        \"value\": \"5\",\n        \"suit\": \"H\"\n    },\n    {\n        \"value\": \"5\",\n        \"suit\": \"S\"\n    }\n]"
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/hand/highest-rank",
+							"raw": "http://localhost:8080/poker/api/hand/highest-rank",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -348,7 +348,7 @@
 					"raw": "[\n    {\n        \"value\": 2,\n        \"suit\": \"C\"\n    },\n    {\n        \"value\": \"A\",\n        \"suit\": \"S\"\n    },\n    {\n        \"value\": 5,\n        \"suit\": \"D\"\n    },\n    {\n        \"value\": 4,\n        \"suit\": \"H\"\n    },\n    {\n        \"value\": \"J\",\n        \"suit\": \"C\"\n    }\n]"
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/hand/ranks",
+					"raw": "http://localhost:8080/poker/api/hand/ranks",
 					"protocol": "http",
 					"host": [
 						"localhost"
